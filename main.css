@@ -76,19 +76,19 @@ body {
         box-shadow: 0 0 0; 
     }
     10% {
-        box-shadow: 0 0 130px rgb(223, 9, 9);
+        box-shadow: 0 0 100px rgb(223, 9, 9);
     }
     30% {
-        box-shadow: 0 0 130px rgb(33, 155, 255);
+        box-shadow: 0 0 100px rgb(101, 178, 241);
     }
     50% {
-        box-shadow: 0 0 130px rgb(248, 181, 57);
+        box-shadow: 0 0 100px rgb(248, 181, 57);
     }
     70% {
-        box-shadow: 0 0 130px rgb(54, 231, 54);
+        box-shadow: 0 0 100px rgb(54, 231, 54);
     }
     90% {
-        box-shadow: 0 0 130px rgb(255, 255, 255);
+        box-shadow: 0 0 100px rgb(255, 255, 255);
     }
 }
 
