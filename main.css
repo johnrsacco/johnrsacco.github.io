@@ -125,27 +125,31 @@ body {
     font-size: 20px;
 }
 
+#about-me-div {
+    text-align: right;
+}
+
 #profile-pic {
     width: 300px;
     height: 375px;
     box-shadow: 1px 10px 10px;
 }
 
-#about-me {
+#about-me-text {
     font-weight: 200;
     text-align: justify;
 }
 
 #signature-div {
     text-align: right;
-    margin-top: -5px;
+    margin-top: -20px;
     margin-bottom: 20px;
-    width: 85%;
+    width: 90%;
 }
 
 #signature {
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 100px;
 }
 
 .skills {
@@ -173,7 +177,12 @@ body {
 #portfolio {
     background-color: black;
     color: white;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.portfolio-img-div {
+    text-align: center;
 }
 
 #portfolio img {
@@ -202,13 +211,24 @@ body {
 
 .project-cover {
     transition: .3s;
+    margin-bottom: 60px;
     
 }
+
 .project-cover:hover {
     transform: scale(1.25);
     position: relative;
     z-index: 1; 
     background-color: black;
+    box-shadow: 0 0 20px 20px black;
+}
+
+.project-caption span {
+    visibility: visible;
+}
+
+.project-caption:hover span {
+    visibility: hidden;
 }
 
 /*------------------------contact section-----------------------------------*/
